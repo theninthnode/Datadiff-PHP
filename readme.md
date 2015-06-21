@@ -1,6 +1,6 @@
 # Datadiff PHP Class
 
-This is a simple PHP class that creates a curl client and sends a commit to the [Datadiff](Datadiff.co) API.
+This is a simple PHP class that creates a curl client and sends a commit to the [Datadiff](http://datadiff.co) API.
 
 ## Installation
 
