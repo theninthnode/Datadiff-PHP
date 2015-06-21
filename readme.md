@@ -33,5 +33,5 @@ In this example a customer has just updated their account.
 $account->update();
 
 // initialise the Datadiff object and send a commit
-Datadiff::factory($client_id, $client_secret)->commit($account, 'accounts', 'updated', '_id', array('action'=>'updated account', src: 'accounts page on software'));
+Datadiff::factory($client_id, $client_secret)->commit($account, 'accounts', 'updated', '_id', array('action'=>'updated account', 'src' => 'accounts page on software'));
 ```
